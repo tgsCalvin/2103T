@@ -100,6 +100,10 @@ public class CityConnect {
 	 * ====================================================================
 	 */
 	public static void main(String[] args) {
+		displayOutput();
+	}
+
+	private static void displayOutput() {
 		showToUser(WELCOME_MESSAGE);
 		while (true) {
 			System.out.print("Enter command:");
